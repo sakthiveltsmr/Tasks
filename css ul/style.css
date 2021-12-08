@@ -1,0 +1,39 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: yellowgreen;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border: dotted rgb(43, 7, 247);
+}
+header li {
+  display: inline-block;
+}
+header li a {
+  color: rgb(231, 41, 7);
+  padding-right: 40px;
+  text-decoration: none;
+}
+a:hover {
+  background: orchid;
+  pointer-events: stroke;
+  font-size: 30px;
+}
+
+#a {
+  background-color: rgb(0, 255, 0);
+  padding-right: 30px;
+  display: inline-block;
+  margin-top: 10px;
+  border: double black;
+}
+#a li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(252, 247, 247);
+}
+#a li a {
+  color: rgb(235, 8, 197);
+  text-decoration: none;
+}
