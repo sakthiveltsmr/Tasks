@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop Down</title>
+    <style>
+      #drop {
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+      }
+      #btn {
+        background-color: greenyellow;
+        color: red;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      #btn:hover {
+        background-color: black;
+        color: wheat;
+        cursor: pointer;
+        border: double orange;
+      }
+      #menu {
+        display: none;
+        position: relative;
+        width: 160px;
+        background-color: blue;
+      }
+      #menu a {
+        text-decoration: none;
+        color: rgb(245, 6, 245);
+        padding: 12px 16px;
+        display: block;
+      }
+      #menu a:hover {
+        background-color: rgb(13, 199, 245);
+      }
+      #drop:hover #menu {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="drop">
+      <button id="btn">List Of Friends</button>
+      <div id="menu">
+        <a href="#">Sakthi</a>
+        <a href="#">Sadheeshwaran</a>
+        <a href="#">sanjith</a>
+        <a href="#">Thirumala</a>
+      </div>
+    </div>
+  </body>
+</html>
