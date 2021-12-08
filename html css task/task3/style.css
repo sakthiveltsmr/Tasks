@@ -1,0 +1,76 @@
+.main {
+  padding: 50px;
+  background-color: #e9d0d0;
+  width: 800px;
+  height: 800px;
+  font-family: sans-serif;
+}
+#sform {
+  background-color: hotpink;
+  width: 400px;
+  height: 550px;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#head {
+  margin-left: 120px;
+  text-decoration: underline rgb(231, 154, 9);
+  color: red;
+}
+
+label {
+  margin-left: 20px;
+  color: rgb(7, 10, 2);
+  padding: 5px;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(248, 250, 250);
+}
+select {
+  margin-left: 130px;
+  padding: 8px;
+  font-size: 14px;
+  background-color: gainsboro;
+}
+textarea {
+  margin-left: 110px;
+}
+#email {
+  margin-left: 50px;
+}
+#sub {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(16, 243, 8, 0.925);
+  border-radius: 10px;
+  margin: 20px 0px 20px 150px;
+}
+#sub:hover {
+  background-color: rgb(235, 175, 10);
+  cursor: pointer;
+}
+select:hover {
+  background-color: #1612f3;
+  cursor: pointer;
+}
+option {
+  color: rgb(40, 76, 155);
+  font-weight: 100px;
+  background-color: rgb(10, 243, 49);
+}
+textarea {
+  width: 220px;
+  margin-left: 120px;
+  font-size: 10px;
+  padding: 5px;
+}
+#sform:hover {
+  background-color: rgb(250, 118, 10);
+}
