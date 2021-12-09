@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second DOM</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container bg-success">
+      <div id="time" class="bg-warning"></div>
+      <div id="time1" class="bg-info"></div>
+    </div>
+
+    <script>
+      setInterval(displayTime, 1000);
+      function displayTime() {
+        var d = new Date();
+        document.getElementById("time").innerHTML = d.toLocaleTimeString();
+      }
+      setTimeout(function () {
+        var divtime1 = document.getElementById("time1");
+        var d = new Date();
+        time1.innerHTML = d.toLocaleTimeString();
+      }, 5000);
+    </script>
+  </body>
+</html>
